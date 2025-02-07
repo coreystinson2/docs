@@ -1,7 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Annature",
+  "api": {
+    "mdx": {
+      "server": "https://api.annature.com.au"
+    }
+  },
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -44,11 +49,11 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Accounts",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "api-reference/accounts/list-accounts",
+              "api-reference/accounts/retrieve-account",
+              "api-reference/accounts/create-account"
             ]
           }
         ]
